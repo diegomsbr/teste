@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YkP9PnPLy3Gx+IvCaCOuGhu2sfbMRXwPJUuhJ2Ne2haODulm5POiUSoPszY2/qjlO/VBaj4ygRD5K7AKZ+cw1Q==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\ValidaSenha\\ValidaSenha\\ValidaSenha.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\10.3.5\\fluentvalidation.10.3.5.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.5\\fluentvalidation.aspnetcore.10.3.5.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.5\\fluentvalidation.dependencyinjectionextensions.10.3.5.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
