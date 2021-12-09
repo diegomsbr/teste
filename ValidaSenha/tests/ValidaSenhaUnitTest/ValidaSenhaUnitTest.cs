@@ -33,30 +33,31 @@ namespace ValidaSenhaUnitTest
         }
 
         [Theory]
-        [InlineData("!Ab1xcvbn")]
-        [InlineData("A@b1xcvbn")]
-        [InlineData("Ab#1xcvbn")]
-        [InlineData("Ab1$xcvbn")]
-        [InlineData("Ab1x%cvbn")]
-        [InlineData("Ab1xc^vbn")]
-        [InlineData("Ab1xcv&bn")]
-        [InlineData("Ab1xcvb*n")]
-        [InlineData("(Ab1xcvbn")]
-        [InlineData("A)b1xcvbn")]
-        [InlineData("Ab+1xcvbn")]
-        [InlineData("Ab1-xcvbn")]
-        [InlineData("!Ab1xcvbnT")]
-        [InlineData("A@b1xcvbnT")]
-        [InlineData("Ab#1xcvbnT")]
-        [InlineData("Ab1$xcvbnT")]
-        [InlineData("Ab1x%cvbnT")]
-        [InlineData("Ab1xc^vbnT")]
-        [InlineData("Ab1xcv&bnT")]
-        [InlineData("Ab1xcvb*nT")]
-        [InlineData("(Ab1xcvbnT")]
-        [InlineData("A)b1xcvbnT")]
-        [InlineData("Ab+1xcvbnT")]
-        [InlineData("Ab1-xcvbnT")]
+        [InlineData("!Ab1xcvPn")]
+        [InlineData("A@b1xcvPn")]
+        [InlineData("Ab#1xcvPn")]
+        [InlineData("Ab1$xcvPn")]
+        [InlineData("Ab1x%cvPn")]
+        [InlineData("Ab1xc^vPn")]
+        [InlineData("Ab1xcv&Pn")]
+        [InlineData("Ab1xcvP*n")]
+        [InlineData("(Ab1xcvPn")]
+        [InlineData("A)b1xcvPn")]
+        [InlineData("Ab+1xcvPn")]
+        [InlineData("Ab1-xcvPn")]
+        [InlineData("!Ab1xcvPnT")]
+        [InlineData("A@b1xcvPnT")]
+        [InlineData("Ab#1xcvPnT")]
+        [InlineData("Ab1$xcvPnT")]
+        [InlineData("Ab1x%cvPnT")]
+        [InlineData("Ab1xc^vPnT")]
+        [InlineData("Ab1xcv&PnT")]
+        [InlineData("Ab1xcvP*nT")]
+        [InlineData("(Ab1xcvPnT")]
+        [InlineData("A)b1xcvPnT")]
+        [InlineData("Ab+1xcvPnT")]
+        [InlineData("Ab1-xcvPnT")]
+        [InlineData("AbTp9!fok")]
         public void SenhaValidaCaracteresEspeciaisETamanhoMin9(string senha)
         {
             Usuario usuario = new Usuario();
@@ -85,8 +86,12 @@ namespace ValidaSenhaUnitTest
         [InlineData("Ab1$xcvNn")]
         [InlineData("Ab1x%%vbn")]
         [InlineData("Ab1xc^^bn")]
-     
-        public void SenhaInvalidaCom9CaracteresRepeticao(string senha)
+        [InlineData("AAAbbbCcs")]
+        [InlineData("AbTp9!foo")]
+        [InlineData("AbTp9!foA")]
+        [InlineData("AbTp9 fok")]
+
+        public void SenhaInvalidaComMin9CaracteresRepeticao(string senha)
         {
             Usuario usuario = new Usuario();
             usuario.Senha = senha;

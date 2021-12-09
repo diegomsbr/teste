@@ -1,8 +1,11 @@
 
+using System.Text.Json.Serialization;
+
 namespace ValidaSenha.Model
 {
     public class Usuario
     {
-        public string Senha { get; set; }
+        [JsonPropertyName("senha")]
+       public string Senha { get; set; }
     }
 }

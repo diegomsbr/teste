@@ -23,3 +23,4 @@ D:\Projetos\ValidaSenha\ValidaSenha\obj\Debug\netcoreapp3.1\ValidaSenha.csproj.C
 D:\Projetos\ValidaSenha\ValidaSenha\obj\Debug\netcoreapp3.1\ValidaSenha.dll
 D:\Projetos\ValidaSenha\ValidaSenha\obj\Debug\netcoreapp3.1\ValidaSenha.pdb
 D:\Projetos\ValidaSenha\ValidaSenha\obj\Debug\netcoreapp3.1\ValidaSenha.genruntimeconfig.cache
+D:\Projetos\ValidaSenha\ValidaSenha\obj\Debug\netcoreapp3.1\ValidaSenha.csproj.AssemblyReference.cache
